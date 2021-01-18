@@ -1,0 +1,114 @@
+body{
+  background-color: #feda3f;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-family: "PT Serif", serif;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.headerText {
+  font-family: 'Amatic SC', cursive;
+  font-size: 5rem;
+  margin: 10rem 0 3rem;
+  text-align: center;
+}
+
+.cursiveHeader {
+  animation-duration: 3s;
+  animation-name: enterright;
+  color: #5ac2ff;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 5rem;
+}
+
+@keyframes enterright {
+
+  from {
+    margin-left: 50%;
+    opacity: 30%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    opacity: 100%;
+    width: 100%;
+  }
+}
+
+.welcomeText {
+  animation-duration: 3s;
+  animation-name: fadein;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0%;
+  }
+  25% {
+    opacity: 0%;
+  }
+
+  75% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+.startButton {
+  animation-duration: 6s;
+  animation-name: fadein;
+  background-color: #fe3f88;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 3px 3px 5px #e57ea5;
+  color: white;
+  font-family: "Amatic SC", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 37%;
+  padding: 1.5rem;
+  text-align: center;
+  transition: 0.5s;
+  width: 25%;
+}
+
+.startButton:hover {
+  background-color:#ff945a;
+  box-shadow: 3px 3px 5px #e6a37f;
+}
+
+.startButton:focus {
+  outline: 0;
+}
+
+.nameForm {
+  animation-delay: 10s;
+  animation-duration: 2s;
+  animation-name: fadein;
+  font-size: 2rem;
+  margin-left: 50%;
+  text-align: center;
+  width: 25%;
+}
+
+@keyframes fadein {
+
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+
+}
