@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/happiness-engine/static/js/main.921a7a54.chunk.js",
+    "main.js.map": "/happiness-engine/static/js/main.921a7a54.chunk.js.map",
+    "runtime-main.js": "/happiness-engine/static/js/runtime-main.772efa48.js",
+    "runtime-main.js.map": "/happiness-engine/static/js/runtime-main.772efa48.js.map",
+    "static/js/2.09d36df4.chunk.js": "/happiness-engine/static/js/2.09d36df4.chunk.js",
+    "static/js/2.09d36df4.chunk.js.map": "/happiness-engine/static/js/2.09d36df4.chunk.js.map",
+    "index.html": "/happiness-engine/index.html",
+    "static/js/2.09d36df4.chunk.js.LICENSE.txt": "/happiness-engine/static/js/2.09d36df4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.772efa48.js",
+    "static/js/2.09d36df4.chunk.js",
+    "static/js/main.921a7a54.chunk.js"
+  ]
+}
